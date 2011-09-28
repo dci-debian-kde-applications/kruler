@@ -17,6 +17,8 @@ Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kruler.git
 Package: kruler
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Breaks: okular (<= 4:4.6.3-2~)
+Replaces: okular (<= 4:4.6.3-2~)
 Description: screen ruler
  KRuler is a tool for measuring the size, in pixels, of items on the screen.
  .
