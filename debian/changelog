@@ -1,4 +1,4 @@
-kruler (4:4.7.2-0r1) experimental; urgency=low
+kruler (4:4.7.2-1) experimental; urgency=low
 
   [ Eshat Cakar ]
   * Initial release. Start from the Kubuntu packaging, thanks!
