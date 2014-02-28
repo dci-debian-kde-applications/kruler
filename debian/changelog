@@ -1,8 +1,8 @@
-kruler (4:4.12.3-1) UNRELEASED; urgency=medium
+kruler (4:4.12.3-1~) UNRELEASED; urgency=medium
 
   * New upstream release.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 28 Feb 2014 23:24:52 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 28 Feb 2014 23:27:39 +0100
 
 kruler (4:4.12.2-1) experimental; urgency=medium
 
