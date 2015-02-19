@@ -19,11 +19,11 @@ kruler (4:14.12.0-0ubuntu1) vivid; urgency=medium
 
 kruler (4:14.11.97-0ubuntu1) vivid; urgency=medium
 
-  * Initial release for KDE applications 14.12 series 
+  * Initial release for KDE applications 14.12 series
    - Change maintainer to Debian/Kubuntu
-   - Fix Watch file applications locations 
+   - Fix Watch file applications locations
    - Fix VCS for new kde-applications location
-  * Debian merge, no remaining changes. 
+  * Debian merge, no remaining changes.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Sat, 29 Nov 2014 19:49:01 +0000
 
@@ -122,7 +122,7 @@ kruler (4:4.10.4-1) experimental; urgency=low
 kruler (4:4.10.2-1) experimental; urgency=low
 
   [ Diane Trout ]
-  * New upstream release. 
+  * New upstream release.
 
   [ Sune Vuorela ]
   * Bump build-deps.
@@ -292,7 +292,7 @@ kruler (4:4.10.3-0ubuntu1) saucy; urgency=low
 kruler (4:4.10.2-1) experimental; urgency=low
 
   [ Diane Trout ]
-  * New upstream release. 
+  * New upstream release.
 
   [ Sune Vuorela ]
   * Bump build-deps.
@@ -405,7 +405,7 @@ kruler (4:4.8.2-0ubuntu1) precise; urgency=low
 
 kruler (4:4.8.1-0ubuntu1) precise; urgency=low
 
-  * New upstream release 
+  * New upstream release
 
  -- Philip Muškovac <yofel@kubuntu.org>  Sun, 04 Mar 2012 20:51:06 +0100
 
@@ -485,7 +485,7 @@ kruler (4:4.7.1-0ubuntu1) oneiric; urgency=low
 
 kruler (4:4.7.0-0ubuntu1) oneiric; urgency=low
 
-  * New upstream release 
+  * New upstream release
 
  -- Philip Muškovac <yofel@kubuntu.org>  Mon, 25 Jul 2011 00:21:54 +0200
 
@@ -498,4 +498,3 @@ kruler (4:4.6.90+repack-0ubuntu1) oneiric; urgency=low
   * Build-depend on libx11-dev.
 
  -- Harald Sitter <apachelogger@ubuntu.com>  Sun, 10 Jul 2011 12:31:34 +0200
-
