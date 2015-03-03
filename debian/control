@@ -7,9 +7,16 @@ Uploaders: Eshat Cakar <info@eshat.de>,
            Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
-               kde-sc-dev-latest (>= 4:4.12),
-               kdelibs5-dev,
+               extra-cmake-modules (>= 1.3.0),
+               kdoctools-dev,
+               libkf5i18n-dev,
+               libkf5notifications-dev,
+               libkf5windowsystem-dev,
+               libkf5xmlgui-dev,
+               libqt5x11extras5-dev (>= 5.2.0),
                libx11-dev,
+               libxcb1-dev,
+               qtbase5-dev (>= 5.2.0)
                pkg-kde-tools (>= 0.12)
 Standards-Version: 3.9.6
 Homepage: http://www.kde.org/applications/graphics/kruler/
@@ -20,8 +27,6 @@ Package: kruler
 Section: graphics
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: okular (<= 4:4.6.3-2~)
-Replaces: okular (<= 4:4.6.3-2~)
 Description: screen ruler
  KRuler is a tool for measuring the size, in pixels, of items on the screen.
  .
