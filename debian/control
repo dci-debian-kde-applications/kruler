@@ -16,6 +16,7 @@ Build-Depends: cmake,
                libqt5x11extras5-dev (>= 5.2.0),
                libx11-dev,
                libxcb1-dev,
+               pkg-config,
                pkg-kde-tools (>= 0.12),
                qtbase5-dev (>= 5.2.0)
 Standards-Version: 3.9.6
