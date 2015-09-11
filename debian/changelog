@@ -1,6 +1,6 @@
 kruler (4:15.08.0-2~) UNRELEASED; urgency=medium
 
-  * 
+  * Add pkg-config build dep.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 11 Sep 2015 20:28:15 +0200
 
