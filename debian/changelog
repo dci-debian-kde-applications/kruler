@@ -1,8 +1,8 @@
-kruler (4:15.08.3-1~) UNRELEASED; urgency=medium
+kruler (4:15.08.3-1) unstable; urgency=medium
 
   * New upstream release (15.08.3).
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 09 Nov 2015 09:44:06 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 02 Dec 2015 12:39:32 +0100
 
 kruler (4:15.08.0-2) unstable; urgency=medium
 
