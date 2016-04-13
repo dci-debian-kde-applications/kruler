@@ -1,3 +1,11 @@
+kruler (4:15.12.3-1~1.gbp3bb459) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @3bb4593046567e758bdd3302a65e4082f61bdee2 **
+
+  * Bump Standards-Version to 3.9.8
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 12:23:37 +0200
+
 kruler (4:15.12.1-1) experimental; urgency=medium
 
   * New upstream release (15.12.0).
