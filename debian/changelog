@@ -1,8 +1,10 @@
-kruler (4:15.12.2-1~) UNRELEASED; urgency=medium
+kruler (4:16.04.0-1~1.gbpaf77e2) UNRELEASED; urgency=medium
 
-  * New upstream release (15.12.2).
+  ** SNAPSHOT build @af77e26e54b89653fcf7d897985c5112d8b5cdfc **
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 13 Feb 2016 10:00:57 +0100
+  * Bump Standards-Version to 3.9.8
+
+ -- Automatic packaging <jenkins@amadeus.gnuservers.com.ar>  Thu, 21 Apr 2016 01:23:20 +0200
 
 kruler (4:15.12.1-1) experimental; urgency=medium
 
