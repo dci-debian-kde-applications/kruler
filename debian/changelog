@@ -1,19 +1,14 @@
-kruler (4:16.04.1-1~1.gbp22db49) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @22db4931047d9d38534f5450cb8974db4fa619a0 **
+kruler (4:16.04.1-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @af77e26e54b89653fcf7d897985c5112d8b5cdfc **
-
   * Bump Standards-Version to 3.9.8
 
   [ Maximiliano Curia ]
   * New upstream release (15.12.2).
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
-  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Wed, 11 May 2016 01:23:14 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 22 May 2016 10:29:56 +0200
 
 kruler (4:15.12.1-1) experimental; urgency=medium
 
