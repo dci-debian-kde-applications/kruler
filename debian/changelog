@@ -1,3 +1,11 @@
+kruler (4:16.08.0-1~1.gbp1f3997) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @1f39970128dd08d27e2bee8f1ff3920921f9c0b9 **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 18 Aug 2016 19:23:11 +0200
+
 kruler (4:16.04.1-1) unstable; urgency=medium
 
   [ Automatic packaging ]
