@@ -1,6 +1,6 @@
-kruler (4:16.08.1-1~1.gbpd6c822) UNRELEASED; urgency=medium
+kruler (4:16.08.2-1~1.gbpe94816) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @d6c8228e586bc862859b434d7aafdb40edc8b9df **
+  ** SNAPSHOT build @e948166b5237eb5f2555b5898190a4fe0614de93 **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @1f39970128dd08d27e2bee8f1ff3920921f9c0b9 **
@@ -9,8 +9,9 @@ kruler (4:16.08.1-1~1.gbpd6c822) UNRELEASED; urgency=medium
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
+  * UNRELEASED
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 09 Sep 2016 01:23:34 +0200
+ -- Automatic packaging <jenkins@gnuservers.com.ar>  Thu, 13 Oct 2016 19:23:25 +0200
 
 kruler (4:16.04.1-1) unstable; urgency=medium
 
