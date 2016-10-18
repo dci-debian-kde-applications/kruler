@@ -1,17 +1,12 @@
-kruler (4:16.08.2-1~1.gbpe94816) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @e948166b5237eb5f2555b5898190a4fe0614de93 **
+kruler (4:16.08.2-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
-  ** SNAPSHOT build @1f39970128dd08d27e2bee8f1ff3920921f9c0b9 **
-
-  * UNRELEASED
+  * New upstream release (16.08.2)
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
-  * UNRELEASED
 
- -- Automatic packaging <jenkins@gnuservers.com.ar>  Thu, 13 Oct 2016 19:23:25 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 18 Oct 2016 09:29:54 +0200
 
 kruler (4:16.04.1-1) unstable; urgency=medium
 
