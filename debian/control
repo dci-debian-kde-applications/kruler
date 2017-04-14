@@ -28,6 +28,8 @@ Package: kruler
 Section: graphics
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: screen ruler
  KRuler is a tool for measuring the size, in pixels, of items on the screen.
  .
