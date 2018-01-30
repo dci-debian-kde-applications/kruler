@@ -1,0 +1,45 @@
+---
+name: kruler
+version: 17.08.1
+summary: Screen Ruler
+description: KRuler is an on-screen ruler for measuring pixels. Position the 0 at
+    your starting point and measure the precise pixel distance between the starting
+    point and your cursor.
+confinement: strict
+grade: stable
+apps:
+    kruler:
+        command: kf5-launch kruler
+        plugs:
+        - kde-frameworks-5-plug
+        - home
+        - x11
+        - opengl
+        - network
+        - network-bind
+        - unity7
+        - pulseaudio
+plugs:
+    kde-frameworks-5-plug:
+        content: kde-frameworks-5-all
+        interface: content
+        default-provider: kde-frameworks-5
+        target: kf5
+parts:
+    kruler:
+        after:
+        - kde-frameworks-5-dev
+        - kde-frameworks-5-env
+        plugin: cmake
+        build-packages:
+        - kdoctools-dev
+        - pkg-config
+        - libpulse0
+        source: https://download.kde.org/stable/applications/17.08.1/src/kruler-17.08.1.tar.xz
+        configflags:
+        - "-DKDE_INSTALL_USE_QT_SYS_PATHS=ON"
+        - "-DCMAKE_INSTALL_PREFIX=/usr"
+        - "-DCMAKE_BUILD_TYPE=Release"
+        - "-DENABLE_TESTING=OFF"
+        - "-DBUILD_TESTING=OFF"
+        - "-DKDE_SKIP_TEST_SETTINGS=ON"
